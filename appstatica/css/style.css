@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4b5a65;
+}
+header img{
+    padding: 50px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff; 
+}
+nav ul{
+    margin-right: 300px;
+    display: flex;
+}
+nav ul li{
+    margin: 0 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 20px;
+}
+li{
+    padding: 10px;
+}
+nav ul li:hover{
+    background-color: #465157;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px #969696;
+}
+.cellphone{
+    display: flex;
+    justify-content: center;
+    background-color: #4b5a65;
+    text-align: left;
+}
+
+.cellphone h1{
+    color: #fff;
+    margin-top: 100px;
+    font-size: 70px;
+}
+.cellphone h3{
+    color: #dcdcdc;
+    margin-bottom: 10px;
+}
+ .cellphone p{
+     color: #999a9b ;
+     margin-bottom: 20px;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+   align-items: center;
+   padding: 0 100px;
+}
+.s{
+    display: flex;
+    justify-content: flex-start;
+}
+.s button{  
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #3d93d1 ;
+    border: outset 3px #5fafe8;
+}
+.s p{
+    margin: 16px 10px;
+    padding: 0 10px;
+    color: #999a9b;
+}
+#boton2{
+    border: none;
+    background-color: #4b5a65;
+}
+#acheerre{
+    width: 76%;
+    margin: 0 auto;
+
+}
+#shape01{
+    padding-right: 10px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    padding: 25px;
+    border: outset 2px #fffefe;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.card img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.card h5{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    font-size: 40px;
+    justify-content: center;
+    color: #4b5a65;
+}
+.card p{
+    color: #999a9b ;
+    margin-bottom: 20px;
+}
+
+.botonLogos button{
+    margin-bottom: 60px;
+    width: 130px;
+    color: #fff;
+    background-color: #549bd0;
+    border-radius: 7px ;
+    height: 45px;
+    border: outset 1px;
+}
+
+.a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 35px;
+}
+.a img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+ .a a{
+    text-decoration: none;
+    color: #4b5a65;
+    margin: 0 8px;
+    font-size: 35px;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+   
+}
+.projects img{
+    margin: 10px 30px;
+    border: outset #fff;
+    margin-bottom: 70px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+section aside{
+    display: flex;
+    flex-direction: column;
+    
+}
+section aside .shape03{
+    display: flex;
+    margin: 0px 35px;
+}
+
+section aside .shape03 img{
+    width: 40px;
+    margin-left: 20px;
+}
+section aside .shape03 a{
+    text-decoration: none;
+    color: #4b5a65;
+    margin: 0 8px;
+    font-size: 35px;
+}
+.presentacion{
+    display: flex;
+}
+.presentacion img{
+    margin: 10px 30px;
+    border: outset #fff;
+    margin-bottom: 30px;
+}
+.presentacion .texto1{
+    display: flex;
+    flex-direction: column;
+}
+.texto1 h4{
+    font-size: 20px;
+    margin: 5px;
+    color: #465157;
+}
+.texto1 span{
+    font-size: 18px;
+    color: #969696;
+    line-height: 2.0;
+}
+.texto1 span a{
+    text-decoration: none;
+    color:#67aada;
+}
+.texto1 p{
+    color:#dcdcdc;
+}
+aside .ol a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3d93d1;
+    margin: 10px 30px;
+}
+article{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px ;
+}
+article .shape04{
+    display: flex;
+    margin: 0px 35px;
+    margin-bottom: 17px;
+}
+article .shape04 img{
+    width: 40px;
+    margin-left: 20px;
+}
+article .shape04 a{
+    text-decoration: none;
+    color: #4b5a65;
+    margin: 0 8px;
+    font-size: 35px;
+}
+article span b{
+    color: #000000;
+}
+article span{
+    font-size: 18px;
+    color:#969696;
+    line-height: 2.0;
+}
+article a{
+    text-decoration: none;
+    color: #549bd0;
+}
+article p{
+    color: #dcdcdc;
+    margin-bottom: 17px;
+}
+article .tw a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3d93d1;
+}
+.lineaFooter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#b8b8b8;
+    width: 1830px;
+    margin: 10px 55px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    text-align: left;
+}
+.footer-left p{
+    color: #969696;
+    font-size: 20px;
+}
+footer .redes{
+    text-align: right;
+}
+footer .redes img{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
